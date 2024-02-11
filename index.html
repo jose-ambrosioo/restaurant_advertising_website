@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang = "pt-pt">
+	<head>
+		<title>Home | Restaurante Ambrósio's</title>
+		<meta charset = "utf-8" /> 
+		<link rel = "shortcut icon" href = "Imagens/Outras/Icone.ico" /> <!-- Inserindo o ícone da página -->
+		<!-- Importando CSSs e Scripts -->
+		<link rel = "stylesheet" type = "text/css" href = "CSS/estilo.css" />
+		<link rel = "stylesheet" type = "text/css" href = "CSS/menu.css" />
+		<link rel = "stylesheet" href = "CSS/slider.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "CSS/rodape.css" />
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src = "Scripts/ism-2.0.1-min.js"></script>
+		<script src = "Scripts/subir.js"></script>
+		<!-- CSS Interno -->
+		<style type = "text/css">
+			.margemHome
+			{
+				margin: 7.41%;
+			}		
+			#conteudoRestaurante
+			{
+				margin-bottom: 9.64%;
+			}
+			#conteudoRestaurante img
+			{
+				float: right;
+				margin: 1.85% 0 0 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<a name = inicio />
+		<div id = "menu">
+			<b><ul class = "menu">
+				<li><img src = "Imagens/Outras/Logotipo.png" alt = "ERRO: IMAGEM NÃO ENCONTRADA!" title = "Logotipo" align = "absmiddle" /></li>
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "#">Ementas</a>
+					<ul class = "submenuEmenta">
+						<li><a href = "#">Alimentos</a>
+							<ul class = "submenuEmentaAlimentos">
+								<li><a href = "fastFood.html">Fast Food</a></li>
+								<li><a href = "frutosDoMar.html">Frutos do Mar</a></li>
+								<li><a href = "pratosPrincipais.html">Pratos Principais</a></li>
+								<li><a href = "saladas.html">Saladas</a></li>
+								<li><a href = "sobremesas.html">Sobremesas</a></li>
+								<li><a href = "sopas.html">Sopas</a></li>
+							</ul>
+						</li>
+						<li><a href = "#">Bebidas</a>
+							<ul class = "submenuEmentaBebidas">
+								<li><a href = "cafesEChas.html">Cafés e Chás</a></li>
+								<li><a href = "licor.html">Licor</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href = "reserva.html">Reserva</a></li>
+				<li><a href = "aprendaACozinhar.html">Aprenda a Cozinhar</a></li>
+				<li><a href = "#">Sobre</a>
+					<ul class = "submenuSobre">
+						<li><a href = "nossaHistoria.html">Nossa história</a></li>
+						<li><a href = "sobreOChef.html">Sobre o Chef</a></li>
+						<li><a href = "contacto.html">Contacto</a></li>
+					</ul>
+				</li>
+			</ul></b>
+		</div>
+		<div id = "slider" class = "ism-slider" data-transition_type = "fade" data-play_type = "loop" data-image_fx = "zoompan">
+		<ol>
+			<li>
+				<a href = "cafesEChas.html" target = "_self">
+					<img src = "Imagens/Slides/SlideCafe.png">
+					<div class = "ism-caption ism-caption-0">Cafés</div>
+				</a>
+			</li>
+			<li>
+				<a href = "fastFood.html" target = "_self">
+					<img src = "Imagens/Slides/SlideFastFood.png">
+					<div class = "ism-caption ism-caption-0">Fast Food</div>
+				</a>
+			</li>
+			<li>
+				<a href = "licor.html" target = "_self">
+					<img src = "Imagens/Slides/SlideLicor.png">
+					<div class = "ism-caption ism-caption-0">Licor</div>
+				</a>
+			</li>
+			<li>
+				<a href = "pratosPrincipais.html" target = "_self">
+					<img src = "Imagens/Slides/SlideComida.png">
+					<div class = "ism-caption ism-caption-0">Pratos Principais</div>
+				</a>
+			</li>
+			<li>
+				<a href = "saladas.html" target = "_self">
+					<img src = "Imagens/Slides/SlideSaladas.png">
+					<div class = "ism-caption ism-caption-0">Saladas</div>
+				</a>
+			</li>
+			<li>
+				<a href = "sobremesas.html" target = "_self">
+					<img src = "Imagens/Slides/SlideSobremesas.png">
+					<div class = "ism-caption ism-caption-0">Sobremesas</div>
+				</a>
+			</li>
+		</ol>
+		</div>
+		<div id = "conteudoChef" class = "margemHome" style = "margin-bottom: -10px;">
+			<a href = "sobreOChef.html"><img src = "Imagens/Outras/Chef.jpg" alt = "ERRO: IMAGEM NÃO ENCONTRADA!" title = "Chef Zé" /></a>
+			<p style = "font-size:50px;"><b><a href = "sobreOChef.html">Sobre o Chef</a></b></p>
+			<p>Zé é apaixonado pelos produtos do sul da Europa, pelos seus sabores, cores, aromas e texturas. A sua filosofia 
+			é simples, como todas as coisas boas da vida: utilizar apenas produtos naturais e frescos e trabalhá-los com 
+			arte e criatividade.</p>
+			<dl>
+			<dt>José Ambrósio trabalhou em restaurantes tão famosos como:
+				<dd>Girasol – em Moraira, Alicante, chefiado por si durante 10 anos (duas estrelas Michelin)
+				<dd>L´Ambroisie – dirigido por Bernard Pacaud (três estrelas Michelin) de Paris.
+				<dd>Moulin de Mougins – dirigido pelo Chefe Roger Vergé (três estrelas Michelin).
+				<dd>Guy Savoy em Paris (duas estrelas Michelin).
+				<dd>Hosteleria du Cerf – em Marlenheim, dirigido por Robert Husser (duas estrelas Michelin).
+				<dd>Au Chapon Fin – em Thoissey, dirigido por M. Gilbert Broyer (duas estrelas Michelin).
+			</dt>
+			</dl>
+			<p>José Ambrósio é Chef de 2 restaurantes no Rio de Janeiro (Brasil), o Enotria e o Enoteca Uno.</p>
+		</div>
+		<div id = "conteudoRestaurante" class = "margemHome">
+			<a href = "reserva.html"><img src = "Imagens/Outras/Reserva.jpg" alt = "ERRO: IMAGEM NÃO ENCONTRADA!" title = "Reserva" /></a>
+			<p style = "font-size:50px;"><b><a href = "reserva.html">Faça a sua reserva</a></b></p>
+			<p>O interior é cosmopolita, elegante e fiel à riquíssima tradição arquitectónica e de elementos artísticos 
+			do Parque Eduardo VII. A iluminação, os têxteis, as cadeiras, a mise en place da mesa, as velas…. tudo se 
+			conjuga para criar um espaço sofisticado, de um luxo discreto e confortável, um ambiente simultaneamente 
+			intimista e grandioso.</p>
+		</div>
+		<div id = "rodape">
+			<p>Visite-nos nas redes sociais:
+			<a href = "http://www.facebook.com"><img src = "Imagens/Outras/Facebook.png" alt = "ERRO: IMAGEM NÃO ENCONTRADA!" title = "Facebook" /></a>
+			<a href = "http://www.twitter.com"><img src = "Imagens/Outras/Twitter.png" alt = "ERRO: IMAGEM NÃO ENCONTRADA!" title = "Twitter" /></a>
+			<a href = "http://www.instagram.com"><img src = "Imagens/Outras/Instagram.png" alt = "ERRO: IMAGEM NÃO ENCONTRADA!" title = "Instagram" /></a>
+			<a href = #inicio id = "subir"><img class = "margemSubir" src = "Imagens/Outras/Subir.png" alt = "ERRO: IMAGEM NÃO ENCONTRADA!" title = "Subir para o topo" /></a>
+			</p>
+			<p>© Copyright 2015 | Restaurante Ambrósio's | José Ambrósio</p>
+		</div>
+	</body>
+</html>

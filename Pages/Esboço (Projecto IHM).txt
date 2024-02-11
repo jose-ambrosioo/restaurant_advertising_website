@@ -1,0 +1,47 @@
+ESTRUTURA DA PÁGINA
+
+*Menu (horizontal)
+ - Home
+ - Ementa
+	- Pratos: pousando o mouse na imagem do prato, mostra os ingredientes 
+	  e TALVEZ modo de preparo
+		- Fast Food
+		- Frutos do mar
+		- Pratos principais
+		- Saladas
+		- Sobremesas
+		- Sopas
+	- Bebidas
+		- Café e Chá
+		- Alcool (Cerveja, Vinho, Licor)
+ - Reserva: nome, telefone, email, nº de pessoas, data
+ - Sobre 
+	- Contacto e localização
+	- Nossa história
+	- Sobre o Chef da casa
+ - Ícones das redes sociais (Facebook, Twitter, Instagram): no canto direito
+
+*Slide (com links nas imagens): Café, FastFood, Licor, PratoPrincipal, Salada, Sobremesa
+ 
+*Conteúdo 
+	- Sobre o Chef
+	- Sobre o Restaurante
+
+*Rodapé
+	- Contacto e Localização, Copyright
+
+-----------------------------------------------------------------------------------------------	
+
+*ACRESCENTAR
+ - E design responsivo 
+ - Animação imagens (Animatable - 32, 33 ou 36) 
+ 
+*NECESSÁRIO 
+ - Home
+ - Acerca de nós
+ - Formulário
+ - Uma página com design responsivo
+ - Uma página com elementos com border-radius
+ - Uma página com elementos com animations
+
+ 

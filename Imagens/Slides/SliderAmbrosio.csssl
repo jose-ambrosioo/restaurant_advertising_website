@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>cssSlider</AppName>
+            <AppUrlS>cssSlider.com</AppUrlS>
+            <AppVersion>2.1</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryDesc></GalleryDesc>
+            <GalleryKeywords></GalleryKeywords>
+            <GalleryName>SliderAmbrosio</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <GalleryTitle></GalleryTitle>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>kenburns</ImageEffect>
+            <ImageFillColor>#FFFFFF</ImageFillColor>
+            <ImageHeight>715</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>:/templates/backgnd/blast/</ImageTemplate>
+            <ImageTemplateName>Blast</ImageTemplateName>
+            <ImageWidth>1349</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <PlayPause>true</PlayPause>
+            <PublishFileName>E:/Nano/Matéria/UCAN (Informática)/2º Ano/2º Semestre/Interacção Homem Máquina/Meu Projecto/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>E:/Nano/Matéria/UCAN (Informática)/2º Ano/2º Semestre/Interacção Homem Máquina/Meu Projecto</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>60</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>false</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateFont>Duru Sans</TemplateFont>
+            <TemplateName>blast</TemplateName>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <WatermarkAlign>66</WatermarkAlign>
+            <WatermarkBgColor>#ffffff</WatermarkBgColor>
+            <WatermarkColor>#514242</WatermarkColor>
+            <WatermarkHaveBgColor>true</WatermarkHaveBgColor>
+            <WatermarkImage></WatermarkImage>
+            <WatermarkOpacity>80</WatermarkOpacity>
+            <WatermarkText>cssSlider.com</WatermarkText>
+            <WatermarkType>1</WatermarkType>
+            <color>#000000</color>
+            <descriptionPos>bottomLeft</descriptionPos>
+            <enableTouch>false</enableTouch>
+            <fullWidth>false</fullWidth>
+            <ieSupport>true</ieSupport>
+            <noFrame>false</noFrame>
+            <showHover>true</showHover>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/Nano/Matéria/UCAN (Informática)/2º Ano/2º Semestre/Interacção Homem Máquina/Meu Projecto/Imagens/Slide/SlideCafeComCanela04.PNG</url>
+                <title>Cafés</title>
+                <userurl>E:\Nano\Matéria\UCAN (Informática)\2º Ano\2º Semestre\Interacção Homem Máquina\Meu Projecto\Imagens\Slide\SlideCafeComCanela04.PNG</userurl>
+            </Image>
+            <Image>
+                <url>E:/Nano/Matéria/UCAN (Informática)/2º Ano/2º Semestre/Interacção Homem Máquina/Meu Projecto/Imagens/Slide/SlideFastFood.jpg</url>
+                <title>Fast Food</title>
+                <userurl>E:\Nano\Matéria\UCAN (Informática)\2º Ano\2º Semestre\Interacção Homem Máquina\Meu Projecto\Imagens\Slide\SlideFastFood.jpg</userurl>
+            </Image>
+            <Image>
+                <url>E:/Nano/Matéria/UCAN (Informática)/2º Ano/2º Semestre/Interacção Homem Máquina/Meu Projecto/Imagens/Slide/SlideLicor02.PNG</url>
+                <title>Licor</title>
+                <userurl>E:\Nano\Matéria\UCAN (Informática)\2º Ano\2º Semestre\Interacção Homem Máquina\Meu Projecto\Imagens\Slide\SlideLicor02.PNG</userurl>
+            </Image>
+            <Image>
+                <url>E:/Nano/Matéria/UCAN (Informática)/2º Ano/2º Semestre/Interacção Homem Máquina/Meu Projecto/Imagens/Slide/SlideComidaFrangoFritoBatatasESalada03.PNG</url>
+                <title>Pratos Principais</title>
+                <userurl>E:\Nano\Matéria\UCAN (Informática)\2º Ano\2º Semestre\Interacção Homem Máquina\Meu Projecto\Imagens\Slide\SlideComidaFrangoFritoBatatasESalada03.PNG</userurl>
+            </Image>
+            <Image>
+                <url>E:/Nano/Matéria/UCAN (Informática)/2º Ano/2º Semestre/Interacção Homem Máquina/Meu Projecto/Imagens/Slide/SlideSaladaDePepinoTomateEAzeitonas06.PNG</url>
+                <title>Saladas</title>
+                <userurl>E:\Nano\Matéria\UCAN (Informática)\2º Ano\2º Semestre\Interacção Homem Máquina\Meu Projecto\Imagens\Slide\SlideSaladaDePepinoTomateEAzeitonas06.PNG</userurl>
+            </Image>
+            <Image>
+                <url>E:/Nano/Matéria/UCAN (Informática)/2º Ano/2º Semestre/Interacção Homem Máquina/Meu Projecto/Imagens/Slide/SlideSobremesaPanquecasComCremeEMorango08.PNG</url>
+                <title>Sobremesas</title>
+                <userurl>E:\Nano\Matéria\UCAN (Informática)\2º Ano\2º Semestre\Interacção Homem Máquina\Meu Projecto\Imagens\Slide\SlideSobremesaPanquecasComCremeEMorango08.PNG</userurl>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

@@ -1,0 +1,29 @@
+/* Classes */
+.margemSubir 
+{
+	float: right; 
+	margin: 25px 20px 0 0;
+}
+
+/* IDs */
+#rodape
+{
+	height: 100px;
+	background-color: #dcdcdc;
+}
+#rodape p
+{
+	color: #696969;
+	background-color: #dcdcdc;
+	margin: 0;
+	padding: 10px 0 0 0;
+	font-size: 28px;
+	text-align: center;
+}
+#rodape img
+{
+	background-color: #dcdcdc;
+	width: 32px; 
+	height: 32px;
+	vertical-align: middle;
+}

@@ -1,0 +1,203 @@
+/* Selector universal */
+*
+{
+	color: #000000;
+	font-family: "breve sc" candara sans-serif;
+	font-size: 30px;
+	border-style: none;
+	margin: 0;
+	/* text-rendering: optimizeLegibility; */
+}
+
+/* Elementos específicos */
+body
+{
+	font-family: "breve sc";
+}
+p
+{
+	text-align: justify;
+	margin: 15px;
+}
+dd
+{
+	text-indent: 15px;
+}
+a
+{
+	text-decoration: none;
+}
+input, textarea, button
+{
+	resize: none;
+	outline: none;
+	font-family: "breve sc";
+	border: 1px solid #d3d3d3;
+}
+textarea
+{
+	width: 49.8%;
+}
+button
+{	
+	color: #ffffff; 
+	background-color: #000000; 
+	border-style: none;
+	border-radius: 7px;
+	display: inline-block;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-weight: bold;
+	box-shadow: 0 0 5px #999;
+}
+
+/* Pseudo-selectores */
+img:hover /* Efeito em imagens ao passar o mouse*/
+{
+	-webkit-filter: grayscale(1);
+}
+button:hover
+{
+	background: #1c1c1c;
+	-webkit-animation: efeitoBotao 0.5s linear infinite alternate;
+}
+input[type = "text"]
+{
+	width: 25%;
+}
+input:focus, textarea:focus
+{
+	background-color: #F5F5F5;
+}
+.conteudoEmenta img:hover
+{
+	-webkit-animation: efeitoImagem 1.5s linear infinite alternate;
+}
+
+/* Pseudo-elementos */
+/* Barra de rolagem */
+/* Barra */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal
+{
+	background: #dcdcdc; /* Cor da barra que se move */
+}
+/* Fundo fixo */
+::-webkit-scrollbar 
+{
+	width:15px; /* Largura da barra */
+	background: #eeeeee; /* Cor da parte fixa */
+}
+
+/* Animações */
+@-webkit-keyframes efeitoBotao
+{
+	0% 
+	{
+		-webkit-transform: rotate(5deg);
+	}
+	50% 
+	{
+		-webkit-transform: rotate(0deg);
+	}
+	100% 
+	{
+		-webkit-transform: rotate(5deg);
+	}
+}
+@-webkit-keyframes efeitoImagem
+{
+	from 
+	{
+		border-radius: 0;
+		/* -webkit-transform: perspective(400px) rotateY(0deg); */
+	}
+	to 
+	{
+		border-radius: 50%;
+		/* -webkit-transform: perspective(400px) rotateY(360deg); */
+	}
+}
+
+/* Classes */
+.margem
+{
+	margin: 9.12% 6.67% 6.67% 6.67%; 
+}
+.conteudoEmenta
+{
+	margin: 80px 0px 35px 32px;
+}
+.conteudoEmentaLinha
+{
+	text-align: center;
+}
+.conteudoEmenta img
+{
+	margin: 18px 0 0 18px;
+	width: 300px;
+	height: 180px;
+	box-shadow: 0 0 5px #999;
+}
+.descricaoEmenta
+{
+	color: #ffffff;
+	background-color: #000000;
+	margin: -4px 0 0 18px;
+	padding: 0 10px 0 10px;
+	width: 280px;
+	text-align: center;
+	font-weight: bold;
+}
+.floatEmentaIMG
+{
+	float: left;
+
+}
+.clearEmentaRodapeEMargem
+{
+	clear: both;
+	margin-top: 5.93%; 
+}
+
+/* IDs */
+#conteudoChef img
+{
+	float: left;
+	margin: 1.48% 20px 0 1.11%;
+	/*height: 34.5%;
+	width: 21.5%;*/
+}
+
+/* Regras */
+/*Responsividade*/
+@media only screen and (max-width:780px)
+{
+	p, dl
+	{
+		text-align: center;
+	}	
+	input[type = "text"]
+	{ 
+		width: 50%;
+	}
+	#conteudoChef  img, #conteudoRestaurante  img
+	{
+		clear: both;
+	}
+	#conteudoChef  img
+	{
+		margin: 0 53% 0 27%;
+	}
+	#conteudoRestaurante  img
+	{
+		width: 100%;
+	}	
+}
+/*Fonte*/
+@font-face
+{
+	font-family: "breve sc";
+	src: url(Fontes/BREVE2.ttf);
+}
