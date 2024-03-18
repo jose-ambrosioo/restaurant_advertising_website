@@ -1,7 +1,7 @@
 # restaurant_advertising_website
 (HTML | CSS | JAVASCRIPT | BOOTSTRAP | VISUAL STUDIO CODE)
 
-This restaurant advertising website allows its customers to view the menu, contact information, and location. 
+This restaurant advertising website enables customers to easily access the menu, contact details, and location information.
 
 ![Captura de Ecrã (4347)](https://github.com/jose-ambrosioo/restaurant_advertising_website/assets/59221796/9215deac-ce2c-4e3f-b6c2-8c21eefef58e)
 
